@@ -1,33 +1,179 @@
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5, h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
-  vertical-align: baseline; }
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details, 
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
     display: block; 
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #fff;
 }
 html{
   background-color:#0a0a23;
   color: white;
 }
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
-h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px; font-family: 'Hack', monospace;}
-h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; font-family: 'Hack', monospace;}
-h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; font-family: 'Hack', monospace;}
-h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; margin-top: 10px; font-family: 'Hack', monospace;}
-h5 { font-size: 18px; line-height: 24px; font-family: 'Hack', monospace;}
-h6 { font-size: 18px; line-height: 21px; font-family: 'Hack', monospace;}
 
-a, a:visited { color:#d0d0d5;
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  font-weight: inherit;
+}
+
+h1 {
+  font-size: 46px;
+  line-height: 50px;
+  margin-bottom: 14px;
+  font-family: 'Hack', monospace;
+}
+
+h2 {
+  font-size: 35px;
+  line-height: 40px; 
+  margin-bottom: 10px;
+  font-family: 'Hack', monospace;
+}
+
+h3 {
+  font-size: 28px; 
+  line-height: 34px; 
+  margin-bottom: 8px;
+  font-family: 'Hack', monospace;
+}
+
+h4 { 
+  font-size: 21px;
+  line-height: 30px;
+  margin-bottom: 4px;
+  margin-top: 10px;
+  font-family: 'Hack', monospace;
+}
+h5 {
+  font-size: 18px;
+  line-height: 24px;
+  font-family: 'Hack', monospace;
+}
+
+h6 {
+  font-size: 18px;
+  line-height: 21px; 
+  font-family: 'Hack', monospace;
+}
+
+a,
+a:visited { 
+  color:#d0d0d5;
   text-decoration: underline;
   font-size: inherit;
 }
-a:hover, a:focus { color: white; text-decoration: none;}
-p a, p a:visited { line-height: inherit; }
+a:hover,
+a:focus {
+  color: white; 
+  text-decoration: none;
+}
+p a,
+p a:visited { 
+  line-height: inherit; 
+}
 
 p{
   color:#d0d0d5;
@@ -93,8 +239,8 @@ nav ul li a:focus {
 .top-hero{
   text-align: center;
   padding-top: 250px;
-    padding-left: 50px;
-    padding-right: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .pad{
@@ -176,14 +322,30 @@ nav ul li a:focus {
 }
 
 
-.primary-color{background-color: #FFFFFF;}
-.secondary-color{background-color:#eeeef0;}
-.tertiary-color{background-color:#dfdfe2;}
-.quaternary-color{background-color:#d0d0d5;}
-.quaternary-background{background-color:#3b3b4f;}
-.tertiary-background{background-color:#2a2a40;}
-.secondary-background{background-color:#1b1b32;}
-.primary-background{background-color:#0a0a23;  border: 1px solid white;}
+.primary-color{
+  background-color: #FFFFFF;
+}
+.secondary-color{
+  background-color:#eeeef0;
+}
+.tertiary-color{
+  background-color:#dfdfe2;
+}
+.quaternary-color{
+  background-color:#d0d0d5;
+}
+.quaternary-background{
+  background-color:#3b3b4f;
+}
+.tertiary-background{
+  background-color:#2a2a40;
+}
+.secondary-background{
+  background-color:#1b1b32;
+}
+.primary-background{
+  background-color:#0a0a23;  border: 1px solid white;
+}
 
 .border{
   border: 1px solid white;
